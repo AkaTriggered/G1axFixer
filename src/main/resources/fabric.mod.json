@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "g1axfixer",
+  "version": "${version}",
+  "name": "G1axFixer",
+  "description": "Fixes every resource pack issue that causes lag spikes, freezes, and crashes in Minecraft 1.21.1. Developed by AkaTriggered & G1ax.",
+  "authors": ["AkaTriggered", "G1ax"],
+  "contact": {
+    "homepage": "https://github.com/AkaTriggered",
+    "sources":  "https://github.com/AkaTriggered",
+    "discord":  "https://discord.gg/XPYnrMd39C"
+  },
+  "license": "MIT",
+  "icon": "assets/g1axfixer/icon.png",
+  "environment": "client",
+  "accessWidener": "g1axfixer.accesswidener",
+  "entrypoints": {
+    "client": ["dev.g1ax.g1axfixer.G1axFixer"],
+    "preLaunch": ["dev.g1ax.g1axfixer.compat.EarlyCompatCheck"]
+  },
+  "mixins": ["g1axfixer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "sodium": "*",
+    "iris": "*"
+  }
+}

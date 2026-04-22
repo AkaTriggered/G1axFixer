@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "dev.g1ax.g1axfixer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "io.github.llamalad7.mixinextras.MixinExtrasBootstrap",
+  "client": [
+    "ZipResourcePackMixin",
+    "SpriteAtlasMixin",
+    "SoundManagerMixin",
+    "ModelLoaderMixin",
+    "LanguageManagerMixin",
+    "ResourcePackProfileMixin",
+    "ReloadableResourceManagerMixin",
+    "ClientConnectionMixin",
+    "ParticleManagerMixin",
+    "WorldRendererMixin",
+    "ClientWorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
