@@ -7,7 +7,6 @@
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-brightgreen.svg)](https://fabricmc.net/)
 [![Fabric API](https://img.shields.io/badge/Fabric%20API-Required-orange.svg)](https://modrinth.com/mod/fabric-api)
 
----
 
 ## 🤔 What Does G1axFixer Do?
 
@@ -17,7 +16,6 @@ G1axFixer makes your Minecraft run **smoother, faster, and crash-free** by doing
 
 2. **Optimizes performance** by making your game smarter about what it processes — things far away from you don't need as much attention, so the game stops wasting power on them.
 
----
 
 ## 🚀 What You'll Notice
 
@@ -36,7 +34,6 @@ G1axFixer makes your Minecraft run **smoother, faster, and crash-free** by doing
 - **Corrupted ZIP files?** Handled automatically
 - **Missing pack.mcmeta?** Auto-generated for you
 
----
 
 ## 🧠 How It Works (Simple Version)
 
@@ -83,7 +80,6 @@ On lower-end PCs, G1axFixer watches your available memory:
 - Missing pack.mcmeta → Auto-generated
 - Stuck resource reload → Timeout protection
 
----
 
 ## 📦 Installation
 
@@ -91,8 +87,6 @@ On lower-end PCs, G1axFixer watches your available memory:
 2. Install **[Fabric API](https://modrinth.com/mod/fabric-api)** 
 3. Download **G1axFixer** and drop the `.jar` in your `.minecraft/mods/` folder
 4. Launch the game — **everything works automatically, no setup needed**
-
----
 
 ## ⚙️ Configuration
 
@@ -102,7 +96,6 @@ A config file is auto-created at `.minecraft/config/g1axfixer.json` on first lau
 
 Want to reset? Just delete `g1axfixer.json` and restart.
 
----
 
 ## ✅ Compatible With
 - Sodium, Iris Shaders, Lithium, Phosphor, and most Fabric mods
@@ -110,7 +103,6 @@ Want to reset? Just delete `g1axfixer.json` and restart.
 ## ❌ Not Compatible With
 - OptiFine / OptiFabric (use Sodium + Iris instead)
 
----
 
 ## 📊 Real Results
 
@@ -122,8 +114,6 @@ Want to reset? Just delete `g1axfixer.json` and restart.
 | Network bandwidth | Baseline | ~20% less |
 | Entity tick load | 100% | ~30% at distance |
 
----
-
 ## 🐛 Problems?
 
 1. **Game won't start?** → Make sure Fabric API is installed, remove OptiFine
@@ -131,7 +121,6 @@ Want to reset? Just delete `g1axfixer.json` and restart.
 3. **Need help?** → Set `"logDebug": true` in config and check `latest.log`
 4. **Still stuck?** → [Join our Discord](https://discord.gg/XPYnrMd39C) or [open an issue on GitHub](https://github.com/AkaTriggered/G1axFixer/issues)
 
----
 
 ## 👥 Made By
 
