@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "dev.g1ax.g1axfixer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ZipResourcePackMixin",
+    "SpriteAtlasMixin",
+    "SoundManagerMixin",
+    "ModelLoaderMixin",
+    "LanguageManagerMixin",
+    "ResourcePackProfileMixin",
+    "ReloadableResourceManagerMixin",
+    "ClientConnectionMixin",
+    "ParticleManagerMixin",
+    "WorldRendererMixin",
+    "ClientWorldMixin",
+    "EntityRenderDispatcherMixin",
+    "ClientPlayNetworkMixin",
+    "BlockEntityRenderMixin",
+    "ChunkBuilderMixin",
+    "ClientPlayerMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
